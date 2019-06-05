@@ -1,6 +1,6 @@
 password = 'a123456'
 i = 3
-while True:
+while i>0:
     p = input('請輸入最多三次密碼:')
     if p == password:
         print('登入成功')
@@ -8,5 +8,4 @@ while True:
     else:
         i = i-1
         print('請重新輸入密碼', i, '次機會')
-    if i == 0:
-        break
+
